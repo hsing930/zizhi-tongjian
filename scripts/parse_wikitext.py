@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-把 raw/juanNNN.wiki（维基文库 wikitext）解析为结构化 JSON。
+把 raw/juanNNN.wiki（維基文庫 wikitext）解析為結構化 JSON。
 
-每卷输出 data/juanNNN.json，结构：
+每卷輸出 data/juanNNN.json，結構：
 {
   "juan": 1, "title": "第一卷　周紀一", "period": "起著雍攝提格…",
   "sections": [
@@ -34,12 +34,12 @@ RE_EVENT = re.compile(r"^'''(\d+)'''\s*(.*)$")
 RE_HEADING = re.compile(r"^(={2,5})\s*(.+?)\s*\1\s*$")
 RE_SECTION_TPL = re.compile(r"\|section=([^\n|}]+)")
 RE_PERIOD = re.compile(r"^'''(起著.*?)'''\s*$", re.M)
-# 无标记年号行：含"年（…公元/西元…）"
+# 无標記年号行：含"年（…公元/西元…）"
 RE_PLAIN_YEAR = re.compile(r"年[（(][^）)]*(公元|西元)[^）)]*[）)]")
 
 
 def clean_inline(s: str):
-    """去掉 ref、模板、链接标记，返回 (纯文本, 注释列表)。"""
+    """去掉 ref、模板、链接標記，返回 (纯文本, 注释列表)。"""
     notes = [m.strip() for m in RE_REF.findall(s)]
     s = RE_REF.sub("", s)
     s = RE_REF_SELF.sub("", s)
@@ -65,7 +65,7 @@ def parse_juan(n: int, wikitext: str) -> dict:
         period, _ = clean_inline(pm.group(1))
 
     body = wikitext
-    # 去掉 header2 模板块与 Textquality 标记；<BR> 视为换行（后期卷以此分段）
+    # 去掉 header2 模板块與 Textquality 標記；<BR> 视為換行（後期卷以此分段）
     body = re.sub(r"\{\{header2.*?\}\}", "", body, flags=re.S)
     body = re.sub(r"\{\{Textquality[^}]*\}\}", "", body)
     body = re.sub(r"<BR\s*/?>", "\n", body, flags=re.I)
@@ -89,7 +89,7 @@ def parse_juan(n: int, wikitext: str) -> dict:
                 sections.append(cur)
                 cur_year = None
             else:
-                # 年号标题（=== ... ===）
+                # 年号標題（=== ... ===）
                 cur_year = text
                 cur["year_heading"] = text
             continue
@@ -112,14 +112,14 @@ def parse_juan(n: int, wikitext: str) -> dict:
             cur["events"].append({"no": no, "year": cur_year, "text": text, "notes": notes})
             continue
 
-        # 无 ''' 标记的年号行（后期卷），如 "孝宗穆皇帝…永和十一年（乙卯，公元三五五年）"
+        # 无 ''' 標記的年号行（後期卷），如 "孝宗穆皇帝…永和十一年（乙卯，公元三五五年）"
         plain, pnotes = clean_inline(line)
         if RE_PLAIN_YEAR.search(plain) and len(plain) < 80:
             cur_year = plain
             cur["year_heading"] = plain
             continue
 
-        # 卷首"【…】起…盡…"与"資治通鑑 第N卷"：记为卷首，不计事件
+        # 卷首"【…】起…盡…"與"資治通鑑 第N卷"：記為卷首，不计事件
         if plain.startswith("資治通鑑") or plain.startswith("【"):
             cur.setdefault("preface", []).append({"text": plain, "notes": pnotes})
             continue
@@ -127,12 +127,12 @@ def parse_juan(n: int, wikitext: str) -> dict:
         if not plain:
             continue
 
-        # 臣光曰（无 :: 前缀的写法）
+        # 臣光曰（无 :: 前缀的寫法）
         if plain.startswith("臣光曰"):
             cur["comments"].append({"text": plain, "notes": pnotes, "year": cur_year})
             continue
 
-        # 其余段落视为事件（后期卷无编号）：编号按本节顺序递增
+        # 其余段落视為事件（後期卷无编号）：编号按本节顺序递增
         cur["events"].append({"no": len(cur["events"]) + 1, "year": cur_year, "text": plain, "notes": pnotes})
 
     stats = {

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-抓取维基文库《資治通鑑》全书 294 卷的 wikitext（原始来源，保存为 UTF-8）。
+抓取維基文庫《資治通鑑》全书 294 卷的 wikitext（原始来源，保存為 UTF-8）。
 
-- 来源：https://zh.wikisource.org  页面 資治通鑑/卷001 … 卷294
-- 只读取公开页面的 wikitext，不做登录、不绕过任何限制。
-- 每次请求间隔 1 秒；已存在的文件会跳过（可断点续抓）。
-- 输出：raw/juan001.wiki … raw/juan294.wiki，以及 raw/_fetch_report.json
+- 来源：https://zh.wikisource.org  頁面 資治通鑑/卷001 … 卷294
+- 只讀取公開頁面的 wikitext，不做登录、不绕過任何限制。
+- 每次請求間隔 1 秒；已存在的文件会跳過（可断点續抓）。
+- 輸出：raw/juan001.wiki … raw/juan294.wiki，以及 raw/_fetch_report.json
 """
 import json
 import os
@@ -60,7 +60,7 @@ def main() -> int:
             except urllib.error.HTTPError as e:
                 last_err = f"HTTP {e.code}"
                 if e.code == 429 or e.code >= 500:
-                    wait = 30 * attempt  # 限流或服务端错误：退避后重试
+                    wait = 30 * attempt  # 限流或服务端错误：退避後重試
                     print(f"[retry] juan{n:03d} {last_err}, wait {wait}s (attempt {attempt})")
                     time.sleep(wait)
                     continue
