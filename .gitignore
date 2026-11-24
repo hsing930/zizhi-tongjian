@@ -1,0 +1,4 @@
+# 抓取的中間與執行記錄
+fetch_run*.log
+__pycache__/
+*.pyc
