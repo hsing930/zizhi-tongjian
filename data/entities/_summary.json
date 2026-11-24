@@ -1,0 +1,1484 @@
+{
+ "counts": {
+  "people": 1040,
+  "places": 73,
+  "offices": 115,
+  "review": 7165
+ },
+ "per_juan": {
+  "1": {
+   "people": 4,
+   "places": 15,
+   "offices": 8
+  },
+  "2": {
+   "people": 14,
+   "places": 20,
+   "offices": 8
+  },
+  "3": {
+   "people": 11,
+   "places": 15,
+   "offices": 11
+  },
+  "4": {
+   "people": 13,
+   "places": 18,
+   "offices": 14
+  },
+  "5": {
+   "people": 12,
+   "places": 14,
+   "offices": 14
+  },
+  "6": {
+   "people": 7,
+   "places": 24,
+   "offices": 13
+  },
+  "7": {
+   "people": 10,
+   "places": 23,
+   "offices": 24
+  },
+  "8": {
+   "people": 14,
+   "places": 20,
+   "offices": 20
+  },
+  "9": {
+   "people": 11,
+   "places": 25,
+   "offices": 19
+  },
+  "10": {
+   "people": 8,
+   "places": 19,
+   "offices": 10
+  },
+  "11": {
+   "people": 6,
+   "places": 25,
+   "offices": 24
+  },
+  "12": {
+   "people": 7,
+   "places": 25,
+   "offices": 30
+  },
+  "13": {
+   "people": 4,
+   "places": 20,
+   "offices": 32
+  },
+  "14": {
+   "people": 3,
+   "places": 19,
+   "offices": 25
+  },
+  "15": {
+   "people": 3,
+   "places": 17,
+   "offices": 33
+  },
+  "16": {
+   "people": 2,
+   "places": 20,
+   "offices": 33
+  },
+  "17": {
+   "people": 3,
+   "places": 17,
+   "offices": 34
+  },
+  "18": {
+   "people": 3,
+   "places": 21,
+   "offices": 33
+  },
+  "19": {
+   "people": 3,
+   "places": 21,
+   "offices": 38
+  },
+  "20": {
+   "people": 4,
+   "places": 23,
+   "offices": 37
+  },
+  "21": {
+   "people": 2,
+   "places": 19,
+   "offices": 31
+  },
+  "22": {
+   "people": 1,
+   "places": 14,
+   "offices": 34
+  },
+  "23": {
+   "people": 4,
+   "places": 15,
+   "offices": 41
+  },
+  "24": {
+   "people": 5,
+   "places": 18,
+   "offices": 44
+  },
+  "25": {
+   "people": 0,
+   "places": 21,
+   "offices": 48
+  },
+  "26": {
+   "people": 2,
+   "places": 10,
+   "offices": 23
+  },
+  "27": {
+   "people": 2,
+   "places": 18,
+   "offices": 40
+  },
+  "28": {
+   "people": 3,
+   "places": 13,
+   "offices": 42
+  },
+  "29": {
+   "people": 1,
+   "places": 15,
+   "offices": 46
+  },
+  "30": {
+   "people": 3,
+   "places": 17,
+   "offices": 45
+  },
+  "31": {
+   "people": 1,
+   "places": 18,
+   "offices": 47
+  },
+  "32": {
+   "people": 1,
+   "places": 13,
+   "offices": 43
+  },
+  "33": {
+   "people": 3,
+   "places": 18,
+   "offices": 35
+  },
+  "34": {
+   "people": 5,
+   "places": 19,
+   "offices": 47
+  },
+  "35": {
+   "people": 2,
+   "places": 18,
+   "offices": 52
+  },
+  "36": {
+   "people": 1,
+   "places": 19,
+   "offices": 45
+  },
+  "37": {
+   "people": 2,
+   "places": 32,
+   "offices": 46
+  },
+  "38": {
+   "people": 5,
+   "places": 23,
+   "offices": 33
+  },
+  "39": {
+   "people": 15,
+   "places": 28,
+   "offices": 41
+  },
+  "40": {
+   "people": 14,
+   "places": 28,
+   "offices": 39
+  },
+  "41": {
+   "people": 12,
+   "places": 33,
+   "offices": 35
+  },
+  "42": {
+   "people": 12,
+   "places": 29,
+   "offices": 37
+  },
+  "43": {
+   "people": 9,
+   "places": 30,
+   "offices": 41
+  },
+  "44": {
+   "people": 7,
+   "places": 20,
+   "offices": 47
+  },
+  "45": {
+   "people": 0,
+   "places": 27,
+   "offices": 40
+  },
+  "46": {
+   "people": 2,
+   "places": 22,
+   "offices": 38
+  },
+  "47": {
+   "people": 5,
+   "places": 26,
+   "offices": 41
+  },
+  "48": {
+   "people": 2,
+   "places": 19,
+   "offices": 43
+  },
+  "49": {
+   "people": 1,
+   "places": 25,
+   "offices": 45
+  },
+  "50": {
+   "people": 5,
+   "places": 22,
+   "offices": 51
+  },
+  "51": {
+   "people": 3,
+   "places": 23,
+   "offices": 50
+  },
+  "52": {
+   "people": 5,
+   "places": 31,
+   "offices": 46
+  },
+  "53": {
+   "people": 4,
+   "places": 17,
+   "offices": 41
+  },
+  "54": {
+   "people": 5,
+   "places": 31,
+   "offices": 46
+  },
+  "55": {
+   "people": 3,
+   "places": 17,
+   "offices": 38
+  },
+  "56": {
+   "people": 4,
+   "places": 20,
+   "offices": 44
+  },
+  "57": {
+   "people": 2,
+   "places": 21,
+   "offices": 48
+  },
+  "58": {
+   "people": 7,
+   "places": 26,
+   "offices": 42
+  },
+  "59": {
+   "people": 5,
+   "places": 35,
+   "offices": 50
+  },
+  "60": {
+   "people": 11,
+   "places": 32,
+   "offices": 43
+  },
+  "61": {
+   "people": 16,
+   "places": 32,
+   "offices": 42
+  },
+  "62": {
+   "people": 15,
+   "places": 31,
+   "offices": 43
+  },
+  "63": {
+   "people": 12,
+   "places": 30,
+   "offices": 24
+  },
+  "64": {
+   "people": 9,
+   "places": 24,
+   "offices": 23
+  },
+  "65": {
+   "people": 13,
+   "places": 26,
+   "offices": 32
+  },
+  "66": {
+   "people": 13,
+   "places": 38,
+   "offices": 40
+  },
+  "67": {
+   "people": 10,
+   "places": 27,
+   "offices": 25
+  },
+  "68": {
+   "people": 8,
+   "places": 31,
+   "offices": 34
+  },
+  "69": {
+   "people": 10,
+   "places": 34,
+   "offices": 48
+  },
+  "70": {
+   "people": 11,
+   "places": 27,
+   "offices": 44
+  },
+  "71": {
+   "people": 5,
+   "places": 31,
+   "offices": 40
+  },
+  "72": {
+   "people": 11,
+   "places": 31,
+   "offices": 42
+  },
+  "73": {
+   "people": 6,
+   "places": 19,
+   "offices": 40
+  },
+  "74": {
+   "people": 4,
+   "places": 30,
+   "offices": 56
+  },
+  "75": {
+   "people": 11,
+   "places": 33,
+   "offices": 49
+  },
+  "76": {
+   "people": 7,
+   "places": 31,
+   "offices": 48
+  },
+  "77": {
+   "people": 5,
+   "places": 32,
+   "offices": 52
+  },
+  "78": {
+   "people": 6,
+   "places": 28,
+   "offices": 50
+  },
+  "79": {
+   "people": 1,
+   "places": 31,
+   "offices": 58
+  },
+  "80": {
+   "people": 5,
+   "places": 35,
+   "offices": 48
+  },
+  "81": {
+   "people": 7,
+   "places": 29,
+   "offices": 54
+  },
+  "82": {
+   "people": 10,
+   "places": 25,
+   "offices": 54
+  },
+  "83": {
+   "people": 4,
+   "places": 27,
+   "offices": 43
+  },
+  "84": {
+   "people": 10,
+   "places": 34,
+   "offices": 49
+  },
+  "85": {
+   "people": 8,
+   "places": 39,
+   "offices": 55
+  },
+  "86": {
+   "people": 7,
+   "places": 39,
+   "offices": 58
+  },
+  "87": {
+   "people": 14,
+   "places": 46,
+   "offices": 52
+  },
+  "88": {
+   "people": 13,
+   "places": 41,
+   "offices": 53
+  },
+  "89": {
+   "people": 12,
+   "places": 33,
+   "offices": 65
+  },
+  "90": {
+   "people": 15,
+   "places": 38,
+   "offices": 55
+  },
+  "91": {
+   "people": 10,
+   "places": 38,
+   "offices": 43
+  },
+  "92": {
+   "people": 7,
+   "places": 32,
+   "offices": 48
+  },
+  "93": {
+   "people": 13,
+   "places": 39,
+   "offices": 51
+  },
+  "94": {
+   "people": 15,
+   "places": 37,
+   "offices": 49
+  },
+  "95": {
+   "people": 7,
+   "places": 38,
+   "offices": 55
+  },
+  "96": {
+   "people": 9,
+   "places": 39,
+   "offices": 56
+  },
+  "97": {
+   "people": 5,
+   "places": 42,
+   "offices": 55
+  },
+  "98": {
+   "people": 7,
+   "places": 34,
+   "offices": 54
+  },
+  "99": {
+   "people": 15,
+   "places": 42,
+   "offices": 52
+  },
+  "100": {
+   "people": 8,
+   "places": 36,
+   "offices": 50
+  },
+  "101": {
+   "people": 12,
+   "places": 42,
+   "offices": 54
+  },
+  "102": {
+   "people": 8,
+   "places": 38,
+   "offices": 44
+  },
+  "103": {
+   "people": 13,
+   "places": 42,
+   "offices": 50
+  },
+  "104": {
+   "people": 8,
+   "places": 47,
+   "offices": 48
+  },
+  "105": {
+   "people": 8,
+   "places": 47,
+   "offices": 39
+  },
+  "106": {
+   "people": 11,
+   "places": 41,
+   "offices": 44
+  },
+  "107": {
+   "people": 9,
+   "places": 40,
+   "offices": 45
+  },
+  "108": {
+   "people": 7,
+   "places": 43,
+   "offices": 49
+  },
+  "109": {
+   "people": 6,
+   "places": 27,
+   "offices": 44
+  },
+  "110": {
+   "people": 10,
+   "places": 26,
+   "offices": 45
+  },
+  "111": {
+   "people": 9,
+   "places": 40,
+   "offices": 47
+  },
+  "112": {
+   "people": 4,
+   "places": 38,
+   "offices": 44
+  },
+  "113": {
+   "people": 10,
+   "places": 39,
+   "offices": 37
+  },
+  "114": {
+   "people": 15,
+   "places": 42,
+   "offices": 51
+  },
+  "115": {
+   "people": 9,
+   "places": 38,
+   "offices": 37
+  },
+  "116": {
+   "people": 9,
+   "places": 43,
+   "offices": 52
+  },
+  "117": {
+   "people": 12,
+   "places": 44,
+   "offices": 45
+  },
+  "118": {
+   "people": 13,
+   "places": 45,
+   "offices": 46
+  },
+  "119": {
+   "people": 6,
+   "places": 45,
+   "offices": 42
+  },
+  "120": {
+   "people": 9,
+   "places": 35,
+   "offices": 47
+  },
+  "121": {
+   "people": 5,
+   "places": 36,
+   "offices": 39
+  },
+  "122": {
+   "people": 4,
+   "places": 38,
+   "offices": 52
+  },
+  "123": {
+   "people": 5,
+   "places": 32,
+   "offices": 41
+  },
+  "124": {
+   "people": 4,
+   "places": 37,
+   "offices": 38
+  },
+  "125": {
+   "people": 5,
+   "places": 40,
+   "offices": 29
+  },
+  "126": {
+   "people": 4,
+   "places": 34,
+   "offices": 40
+  },
+  "127": {
+   "people": 8,
+   "places": 25,
+   "offices": 43
+  },
+  "128": {
+   "people": 10,
+   "places": 28,
+   "offices": 49
+  },
+  "129": {
+   "people": 1,
+   "places": 27,
+   "offices": 48
+  },
+  "130": {
+   "people": 4,
+   "places": 20,
+   "offices": 42
+  },
+  "131": {
+   "people": 14,
+   "places": 32,
+   "offices": 34
+  },
+  "132": {
+   "people": 5,
+   "places": 35,
+   "offices": 40
+  },
+  "133": {
+   "people": 4,
+   "places": 28,
+   "offices": 43
+  },
+  "134": {
+   "people": 9,
+   "places": 27,
+   "offices": 42
+  },
+  "135": {
+   "people": 6,
+   "places": 38,
+   "offices": 51
+  },
+  "136": {
+   "people": 7,
+   "places": 30,
+   "offices": 42
+  },
+  "137": {
+   "people": 3,
+   "places": 30,
+   "offices": 44
+  },
+  "138": {
+   "people": 2,
+   "places": 26,
+   "offices": 36
+  },
+  "139": {
+   "people": 5,
+   "places": 33,
+   "offices": 45
+  },
+  "140": {
+   "people": 3,
+   "places": 32,
+   "offices": 49
+  },
+  "141": {
+   "people": 3,
+   "places": 38,
+   "offices": 44
+  },
+  "142": {
+   "people": 4,
+   "places": 28,
+   "offices": 39
+  },
+  "143": {
+   "people": 4,
+   "places": 31,
+   "offices": 27
+  },
+  "144": {
+   "people": 6,
+   "places": 30,
+   "offices": 51
+  },
+  "145": {
+   "people": 8,
+   "places": 32,
+   "offices": 48
+  },
+  "146": {
+   "people": 6,
+   "places": 35,
+   "offices": 36
+  },
+  "147": {
+   "people": 4,
+   "places": 35,
+   "offices": 57
+  },
+  "148": {
+   "people": 4,
+   "places": 31,
+   "offices": 48
+  },
+  "149": {
+   "people": 3,
+   "places": 23,
+   "offices": 45
+  },
+  "150": {
+   "people": 4,
+   "places": 34,
+   "offices": 43
+  },
+  "151": {
+   "people": 5,
+   "places": 33,
+   "offices": 39
+  },
+  "152": {
+   "people": 3,
+   "places": 31,
+   "offices": 40
+  },
+  "153": {
+   "people": 2,
+   "places": 32,
+   "offices": 33
+  },
+  "154": {
+   "people": 4,
+   "places": 32,
+   "offices": 41
+  },
+  "155": {
+   "people": 14,
+   "places": 33,
+   "offices": 43
+  },
+  "156": {
+   "people": 11,
+   "places": 35,
+   "offices": 41
+  },
+  "157": {
+   "people": 11,
+   "places": 40,
+   "offices": 49
+  },
+  "158": {
+   "people": 8,
+   "places": 36,
+   "offices": 44
+  },
+  "159": {
+   "people": 2,
+   "places": 28,
+   "offices": 28
+  },
+  "160": {
+   "people": 4,
+   "places": 32,
+   "offices": 39
+  },
+  "161": {
+   "people": 7,
+   "places": 32,
+   "offices": 37
+  },
+  "162": {
+   "people": 10,
+   "places": 31,
+   "offices": 41
+  },
+  "163": {
+   "people": 7,
+   "places": 42,
+   "offices": 39
+  },
+  "164": {
+   "people": 12,
+   "places": 35,
+   "offices": 45
+  },
+  "165": {
+   "people": 5,
+   "places": 37,
+   "offices": 39
+  },
+  "166": {
+   "people": 8,
+   "places": 30,
+   "offices": 42
+  },
+  "167": {
+   "people": 5,
+   "places": 37,
+   "offices": 55
+  },
+  "168": {
+   "people": 10,
+   "places": 35,
+   "offices": 49
+  },
+  "169": {
+   "people": 6,
+   "places": 38,
+   "offices": 51
+  },
+  "170": {
+   "people": 6,
+   "places": 31,
+   "offices": 49
+  },
+  "171": {
+   "people": 5,
+   "places": 33,
+   "offices": 54
+  },
+  "172": {
+   "people": 4,
+   "places": 27,
+   "offices": 36
+  },
+  "173": {
+   "people": 5,
+   "places": 38,
+   "offices": 44
+  },
+  "174": {
+   "people": 4,
+   "places": 35,
+   "offices": 38
+  },
+  "175": {
+   "people": 4,
+   "places": 39,
+   "offices": 55
+  },
+  "176": {
+   "people": 3,
+   "places": 36,
+   "offices": 40
+  },
+  "177": {
+   "people": 10,
+   "places": 28,
+   "offices": 41
+  },
+  "178": {
+   "people": 5,
+   "places": 27,
+   "offices": 41
+  },
+  "179": {
+   "people": 5,
+   "places": 23,
+   "offices": 33
+  },
+  "180": {
+   "people": 6,
+   "places": 35,
+   "offices": 39
+  },
+  "181": {
+   "people": 3,
+   "places": 21,
+   "offices": 32
+  },
+  "182": {
+   "people": 9,
+   "places": 30,
+   "offices": 32
+  },
+  "183": {
+   "people": 8,
+   "places": 30,
+   "offices": 35
+  },
+  "184": {
+   "people": 12,
+   "places": 27,
+   "offices": 32
+  },
+  "185": {
+   "people": 8,
+   "places": 30,
+   "offices": 47
+  },
+  "186": {
+   "people": 16,
+   "places": 30,
+   "offices": 38
+  },
+  "187": {
+   "people": 17,
+   "places": 34,
+   "offices": 52
+  },
+  "188": {
+   "people": 13,
+   "places": 36,
+   "offices": 29
+  },
+  "189": {
+   "people": 17,
+   "places": 41,
+   "offices": 35
+  },
+  "190": {
+   "people": 14,
+   "places": 33,
+   "offices": 35
+  },
+  "191": {
+   "people": 10,
+   "places": 28,
+   "offices": 42
+  },
+  "192": {
+   "people": 7,
+   "places": 31,
+   "offices": 35
+  },
+  "193": {
+   "people": 7,
+   "places": 21,
+   "offices": 40
+  },
+  "194": {
+   "people": 13,
+   "places": 27,
+   "offices": 31
+  },
+  "195": {
+   "people": 5,
+   "places": 25,
+   "offices": 40
+  },
+  "196": {
+   "people": 7,
+   "places": 20,
+   "offices": 43
+  },
+  "197": {
+   "people": 7,
+   "places": 20,
+   "offices": 45
+  },
+  "198": {
+   "people": 6,
+   "places": 21,
+   "offices": 32
+  },
+  "199": {
+   "people": 6,
+   "places": 24,
+   "offices": 47
+  },
+  "200": {
+   "people": 3,
+   "places": 29,
+   "offices": 39
+  },
+  "201": {
+   "people": 7,
+   "places": 25,
+   "offices": 38
+  },
+  "202": {
+   "people": 5,
+   "places": 24,
+   "offices": 48
+  },
+  "203": {
+   "people": 8,
+   "places": 28,
+   "offices": 51
+  },
+  "204": {
+   "people": 3,
+   "places": 25,
+   "offices": 38
+  },
+  "205": {
+   "people": 7,
+   "places": 27,
+   "offices": 35
+  },
+  "206": {
+   "people": 4,
+   "places": 28,
+   "offices": 37
+  },
+  "207": {
+   "people": 9,
+   "places": 28,
+   "offices": 35
+  },
+  "208": {
+   "people": 7,
+   "places": 28,
+   "offices": 57
+  },
+  "209": {
+   "people": 8,
+   "places": 26,
+   "offices": 50
+  },
+  "210": {
+   "people": 5,
+   "places": 27,
+   "offices": 47
+  },
+  "211": {
+   "people": 5,
+   "places": 32,
+   "offices": 41
+  },
+  "212": {
+   "people": 3,
+   "places": 28,
+   "offices": 51
+  },
+  "213": {
+   "people": 3,
+   "places": 31,
+   "offices": 48
+  },
+  "214": {
+   "people": 6,
+   "places": 27,
+   "offices": 47
+  },
+  "215": {
+   "people": 7,
+   "places": 36,
+   "offices": 42
+  },
+  "216": {
+   "people": 6,
+   "places": 19,
+   "offices": 32
+  },
+  "217": {
+   "people": 13,
+   "places": 30,
+   "offices": 35
+  },
+  "218": {
+   "people": 11,
+   "places": 34,
+   "offices": 35
+  },
+  "219": {
+   "people": 9,
+   "places": 35,
+   "offices": 30
+  },
+  "220": {
+   "people": 12,
+   "places": 32,
+   "offices": 41
+  },
+  "221": {
+   "people": 12,
+   "places": 39,
+   "offices": 36
+  },
+  "222": {
+   "people": 12,
+   "places": 41,
+   "offices": 48
+  },
+  "223": {
+   "people": 5,
+   "places": 29,
+   "offices": 36
+  },
+  "224": {
+   "people": 10,
+   "places": 32,
+   "offices": 40
+  },
+  "225": {
+   "people": 8,
+   "places": 32,
+   "offices": 48
+  },
+  "226": {
+   "people": 4,
+   "places": 27,
+   "offices": 42
+  },
+  "227": {
+   "people": 13,
+   "places": 36,
+   "offices": 32
+  },
+  "228": {
+   "people": 19,
+   "places": 29,
+   "offices": 44
+  },
+  "229": {
+   "people": 10,
+   "places": 30,
+   "offices": 31
+  },
+  "230": {
+   "people": 8,
+   "places": 21,
+   "offices": 16
+  },
+  "231": {
+   "people": 15,
+   "places": 27,
+   "offices": 30
+  },
+  "232": {
+   "people": 15,
+   "places": 29,
+   "offices": 31
+  },
+  "233": {
+   "people": 12,
+   "places": 19,
+   "offices": 29
+  },
+  "234": {
+   "people": 4,
+   "places": 26,
+   "offices": 31
+  },
+  "235": {
+   "people": 3,
+   "places": 29,
+   "offices": 39
+  },
+  "236": {
+   "people": 7,
+   "places": 22,
+   "offices": 40
+  },
+  "237": {
+   "people": 6,
+   "places": 25,
+   "offices": 39
+  },
+  "238": {
+   "people": 9,
+   "places": 22,
+   "offices": 32
+  },
+  "239": {
+   "people": 15,
+   "places": 28,
+   "offices": 37
+  },
+  "240": {
+   "people": 12,
+   "places": 20,
+   "offices": 31
+  },
+  "241": {
+   "people": 7,
+   "places": 23,
+   "offices": 43
+  },
+  "242": {
+   "people": 7,
+   "places": 25,
+   "offices": 34
+  },
+  "243": {
+   "people": 9,
+   "places": 22,
+   "offices": 49
+  },
+  "244": {
+   "people": 9,
+   "places": 25,
+   "offices": 38
+  },
+  "245": {
+   "people": 15,
+   "places": 22,
+   "offices": 43
+  },
+  "246": {
+   "people": 10,
+   "places": 20,
+   "offices": 43
+  },
+  "247": {
+   "people": 11,
+   "places": 28,
+   "offices": 34
+  },
+  "248": {
+   "people": 10,
+   "places": 20,
+   "offices": 41
+  },
+  "249": {
+   "people": 4,
+   "places": 25,
+   "offices": 46
+  },
+  "250": {
+   "people": 6,
+   "places": 28,
+   "offices": 39
+  },
+  "251": {
+   "people": 10,
+   "places": 22,
+   "offices": 22
+  },
+  "252": {
+   "people": 3,
+   "places": 25,
+   "offices": 44
+  },
+  "253": {
+   "people": 10,
+   "places": 29,
+   "offices": 31
+  },
+  "254": {
+   "people": 15,
+   "places": 30,
+   "offices": 38
+  },
+  "255": {
+   "people": 15,
+   "places": 28,
+   "offices": 32
+  },
+  "256": {
+   "people": 18,
+   "places": 38,
+   "offices": 35
+  },
+  "257": {
+   "people": 19,
+   "places": 31,
+   "offices": 24
+  },
+  "258": {
+   "people": 18,
+   "places": 29,
+   "offices": 28
+  },
+  "259": {
+   "people": 14,
+   "places": 30,
+   "offices": 35
+  },
+  "260": {
+   "people": 15,
+   "places": 33,
+   "offices": 35
+  },
+  "261": {
+   "people": 13,
+   "places": 34,
+   "offices": 21
+  },
+  "262": {
+   "people": 17,
+   "places": 25,
+   "offices": 33
+  },
+  "263": {
+   "people": 15,
+   "places": 29,
+   "offices": 24
+  },
+  "264": {
+   "people": 15,
+   "places": 29,
+   "offices": 27
+  },
+  "265": {
+   "people": 14,
+   "places": 30,
+   "offices": 32
+  },
+  "266": {
+   "people": 10,
+   "places": 32,
+   "offices": 33
+  },
+  "267": {
+   "people": 15,
+   "places": 35,
+   "offices": 33
+  },
+  "268": {
+   "people": 14,
+   "places": 32,
+   "offices": 32
+  },
+  "269": {
+   "people": 10,
+   "places": 35,
+   "offices": 28
+  },
+  "270": {
+   "people": 15,
+   "places": 29,
+   "offices": 32
+  },
+  "271": {
+   "people": 13,
+   "places": 29,
+   "offices": 28
+  },
+  "272": {
+   "people": 18,
+   "places": 27,
+   "offices": 34
+  },
+  "273": {
+   "people": 7,
+   "places": 26,
+   "offices": 28
+  },
+  "274": {
+   "people": 16,
+   "places": 21,
+   "offices": 25
+  },
+  "275": {
+   "people": 18,
+   "places": 32,
+   "offices": 32
+  },
+  "276": {
+   "people": 13,
+   "places": 29,
+   "offices": 35
+  },
+  "277": {
+   "people": 17,
+   "places": 21,
+   "offices": 32
+  },
+  "278": {
+   "people": 8,
+   "places": 24,
+   "offices": 32
+  },
+  "279": {
+   "people": 9,
+   "places": 25,
+   "offices": 38
+  },
+  "280": {
+   "people": 10,
+   "places": 22,
+   "offices": 27
+  },
+  "281": {
+   "people": 8,
+   "places": 29,
+   "offices": 36
+  },
+  "282": {
+   "people": 11,
+   "places": 29,
+   "offices": 45
+  },
+  "283": {
+   "people": 13,
+   "places": 28,
+   "offices": 40
+  },
+  "284": {
+   "people": 9,
+   "places": 26,
+   "offices": 28
+  },
+  "285": {
+   "people": 11,
+   "places": 24,
+   "offices": 26
+  },
+  "286": {
+   "people": 10,
+   "places": 26,
+   "offices": 39
+  },
+  "287": {
+   "people": 11,
+   "places": 28,
+   "offices": 31
+  },
+  "288": {
+   "people": 12,
+   "places": 31,
+   "offices": 39
+  },
+  "289": {
+   "people": 14,
+   "places": 30,
+   "offices": 25
+  },
+  "290": {
+   "people": 11,
+   "places": 34,
+   "offices": 41
+  },
+  "291": {
+   "people": 12,
+   "places": 28,
+   "offices": 30
+  },
+  "292": {
+   "people": 5,
+   "places": 31,
+   "offices": 27
+  },
+  "293": {
+   "people": 6,
+   "places": 27,
+   "offices": 42
+  },
+  "294": {
+   "people": 5,
+   "places": 29,
+   "offices": 41
+  }
+ },
+ "params": {
+  "MIN_AUTO": 2,
+  "MIN_REVIEW": 1
+ }
+}
