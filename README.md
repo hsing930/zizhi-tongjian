@@ -1,4 +1,4 @@
-# 資治通鑑知識庫（zizhi-tongjian-kb）
+# 資治通鑑知識庫（zizhi-tongjian）
 
 以《資治通鑑》全書 294 卷為對象，建立可檢索、可追溯的結構化知識庫。方法參考 [shiji-kb](https://github.com/baojie/shiji-kb)（《史記》知識庫）：先把古文變成結構化資料，再從資料產生索引與網頁。
 
