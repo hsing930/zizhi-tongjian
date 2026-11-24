@@ -3,3 +3,8 @@ fetch_run*.log
 __pycache__/
 *.pyc
 parse_run*.log
+
+# CHGIS 資料（授權限制：不得公開散布，僅限本機學術對照）
+data/chgis/
+data/chgis_local/
+raw/chgis/

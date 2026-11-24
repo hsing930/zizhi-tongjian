@@ -40,3 +40,18 @@ python scripts\parse_wikitext.py     # 解析為 data/*.json
 - 原文校勘注（`〔…〕(…)` 與 `<ref>`）保留在 `notes` 欄位，不會被刪除。
 - 解析結果依賴維基文庫的排版，若來源頁面有變動，需重新抓取與校對。
 - 事件的年號來自最近一個年號標題，跨年的記載可能需要人工校正。
+
+## 歷史地名對照與 CHGIS 引用
+
+本專案的歷代地名表主要取自維基文庫上的正史地理志（公有領域），見 `scripts/build_gazetteer.py`。
+
+部分地名的朝代歸屬與行政層級對照，參考了哈佛大學 Fairbank Center 與復旦大學歷史地理研究中心合作的 **China Historical GIS（CHGIS）Version 6**。標準引用如下：
+
+> CHGIS, Version 6. (c) Fairbank Center for Chinese Studies of Harvard University and the Center for Historical Geographical Studies at Fudan University, 2016.
+
+使用說明：
+
+- 本專案只公開統計結論、方法說明與少量示例；逐條對照結果僅保存於本機，不隨儲存庫發布。
+- 本專案不包含 CHGIS 的原始資料或其整體衍生資料集。
+- 使用範圍為非商業的學術研究與教育。若需商業用途或完整資料，應依 CHGIS 授權條款另行取得許可。
+- 本專案對 CHGIS 資料所做的修改：僅取用地名與朝代對應，未修改其原始座標與行政層級。
