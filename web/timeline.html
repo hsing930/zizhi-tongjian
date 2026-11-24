@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>時間線 · 資治通鑑知識庫</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <a class="brand" href="index.html">資治通鑑知識庫</a>
+    <nav>
+      <a href="index.html">卷目錄</a>
+      <a class="active" href="timeline.html">時間線</a>
+      <a href="search.html">搜尋</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>時間線</h1>
+  <p class="muted">依各節年號標題中的西元年排列（前為公元前）。點選條目可跳到對應卷與節。</p>
+  <form class="toolbar-form search" id="jump-form">
+    <label>跳到西元年
+      <input type="text" id="year" inputmode="numeric" placeholder="例如 -403、前403、956" autocomplete="off">
+    </label>
+    <button type="submit">跳轉</button>
+    <label>朝代
+      <select id="dynasty"><option value="">全部</option></select>
+    </label>
+  </form>
+  <div class="status" id="status"></div>
+  <ol class="tl" id="tl"></ol>
+</main>
+<footer>
+  跳轉至「該年或之後最近的一條」。年號標題無法解析西元年的節不列入時間線；西元年取自年號括號內的「西元／公元前後 N 年」。
+</footer>
+<script src="assets/common.js"></script>
+<script src="assets/timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜尋 · 資治通鑑知識庫</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <a class="brand" href="index.html">資治通鑑知識庫</a>
+    <nav>
+      <a href="index.html">卷目錄</a>
+      <a href="timeline.html">時間線</a>
+      <a class="active" href="search.html">搜尋</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>全文搜尋</h1>
+  <p class="muted">搜尋事件正文與「臣光曰」論斷。多個詞以空白分隔，須同時出現在同一則。</p>
+  <form class="search" id="search-form">
+    <input type="search" id="q" name="q" placeholder="例如：諸葛亮、赤壁、貞觀" autocomplete="off" required>
+    <select id="scope" name="scope" aria-label="搜尋範圍">
+      <option value="all">事件與論斷</option>
+      <option value="event">只搜事件</option>
+      <option value="comment">只搜論斷</option>
+    </select>
+    <button type="submit">搜尋</button>
+  </form>
+  <div class="status" id="status"></div>
+  <div id="results"></div>
+  <div id="more"></div>
+</main>
+<footer>
+  索引於瀏覽器內由各卷資料建立，首次搜尋需讀取全部卷檔（約 13 MB），之後同一頁面內搜尋即時完成。
+</footer>
+<script src="assets/common.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>
