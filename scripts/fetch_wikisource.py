@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-抓取維基文庫《資治通鑑》全书 294 卷的 wikitext（原始来源，保存為 UTF-8）。
+抓取維基文庫《資治通鑑》全書 294 卷的 wikitext（原始來源，保存為 UTF-8）。
 
-- 来源：https://zh.wikisource.org  頁面 資治通鑑/卷001 … 卷294
-- 只讀取公開頁面的 wikitext，不做登录、不绕過任何限制。
-- 每次請求間隔 1 秒；已存在的文件会跳過（可断点續抓）。
+- 來源：https://zh.wikisource.org  頁面 資治通鑑/卷001 … 卷294
+- 只讀取公開頁面的 wikitext，不做登錄、不繞過任何限制。
+- 每次請求間隔 1 秒；已存在的文件會跳過（可斷点續抓）。
 - 輸出：raw/juan001.wiki … raw/juan294.wiki，以及 raw/_fetch_report.json
 """
 import json
