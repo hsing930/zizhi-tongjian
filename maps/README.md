@@ -16,7 +16,7 @@
 python scripts\build_map_links.py
 ```
 
-腳本只讀取 `data/`，只寫入 `maps/links.json`，可重複執行，結果相同。
+腳本只讀取 `data/`（與地名清單檔），只寫入 `maps/links.json`，可重複執行，結果相同。
 
 ## 整合策略（連結層）
 
@@ -25,12 +25,17 @@ python scripts\build_map_links.py
 3. 連結是**朝代層級**：卷標題的朝代（如「宋紀」）對應到該朝代可連結的來源。腳本未逐一驗證某個地名是否確實出現在來源資料中。
 4. 授權不明確者一律標示 `待確認`，不自行假設可用。
 
-## 地名清單來源（目前為暫定）
+## 地名清單來源
 
-- `data/entities/places.json` 目前**尚不存在**（另一子工作階段產生）。
-- 因此腳本以 `data/juan*.json` 事件文字掃描一組種子地名（都城、州郡、關隘、大區，共 52 個有命中的地名）。
-- `links.json` 中 `provisional: true` 標示此狀態。待 `data/entities/places.json` 出現後，腳本會自動改讀它（支援字串清單或含 `name` 的物件清單）。
-- 種子地名的命中次數偏高（如「河南」約 217 卷次），因為它是廣域地名，同時出現在多個朝代；這些數字只代表文字出現次數，不代表地點精確性。
+依優先順序讀取第一個存在的檔案：`--places` 指定檔 → `data/entities/places.json` → `data/entities/places_verified.json`（含主倉庫下的同名檔，因 `data/entities/` 為未追蹤檔）。全部不存在時才退回種子地名。
+
+- 2026-11-25 目前使用 **`data/entities/places_verified.json`**（另一子工作階段產生，主倉庫中）。該檔共 3587 筆，其中 `rejected_noise`、`rejected_generic`、`rejected_manual` 共 2128 筆已排除，保留 1459 筆。
+- 每個地名的 `verification` 欄沿用該檔的狀態：`confirmed_same_era`、`confirmed_other_era`、`confirmed_manual`、`phrase_resolved`（已確認）；`unverified`（624 筆）與 `regime_place_pending`（80 筆）未確認，使用時需注意。
+- 其中 `西漢` 表為空（該檔自述「待補」），周秦漢地名以西漢表參照，結果需人工抽樣確認。
+- `links.json` 中 `provisional: false`。只有「朝代」層級的連結：卷標題的朝代對應到該朝代可連結的來源。腳本未逐一驗證某個地名是否確實出現在來源資料中。
+- 1459 筆中約 290 筆所在卷的朝代（如北魏、晉、隋、齊）沒有已驗證的開放來源，連結標為 `待確認`。
+- 命中卷數是以事件文字做子字串比對，廣域地名（如「河南」）會偏高；這只代表文字出現次數，不代表地點精確性。
+- 暫定種子清單（52 個）已於 2026-11-25 之前的版本使用，現僅在找不到任何地名檔時才會使用。
 
 ## 授權限制摘要
 
@@ -50,10 +55,12 @@ python scripts\build_map_links.py
 3. **Commons 圖像要不要保存？** 需逐檔確認授權（CC0 與 CC BY-SA 的標示要求不同）。是否值得花時間逐檔整理，待決定。
 4. **唐代行政區的來源**：目前無已驗證的開放來源，待確認。
 5. **《中國歷史地圖集》**：未找到開放版本，待確認是否要以其他方式補足。
-6. **CHGIS 的範圍與 Dataverse 條款**：頁面未載明朝代與年代範圍，完整條款在 Harvard Dataverse，尚未讀取。
+6. **CHGIS 的範圍與 Dataverse 條款**：頁面未載明朝代與年代範圍；Dataverse 資料集條款 2026-11-25 仍未取得（頁面回 HTTP 202 空內容），待確認。
+7. **地名清單的歸屬**：目前讀取另一子工作階段的 `places_verified.json`（未追蹤檔）。該檔若更名或重做，需同步更新 `scripts/build_map_links.py` 的候選檔名，或以 `--places` 指定。
 
 ## 執行記錄
 
-- 2026-11-24：重新驗證 CHGIS V6、Pitt 宋代地名資料庫、Wikimedia Commons（SVG 歷史地圖分類與抽查檔案）；Commons Atlas 分類頁回 404。
-- 2026-11-24：新增 `scripts/build_map_links.py`，產生 `maps/links.json`（52 個暫定地名，`provisional: true`）。腳本執行兩次，輸出一致。
-- 2026-11-24：本次未下載任何 GIS 或圖像檔案，未修改 `raw/`、`data/juan*.json`、`data/entities/`、`web/`。
+- 2026-11-24：首次驗證 CHGIS V6、Pitt 宋代地名資料庫、Wikimedia Commons（SVG 歷史地圖分類與抽查檔案）；Commons Atlas 分類頁回 404。新增 `scripts/build_map_links.py`，產生 52 個暫定地名的 `links.json`。
+- 2026-11-25：再次驗證四個來源頁面（curl 抓原文）。授權字句與 11-24 相同；Commons 分類 119 檔、Atlas 分類仍 404；Dataverse 條款仍未取得。
+- 2026-11-25：腳本改為讀取 `places_verified.json`（排除 rejected_*），輸出 1459 筆地名、`provisional: false`；連結改為精簡格式（來源細節集中於 `links.json` 的 `sources`）。重複執行結果相同（已以 `cmp` 確認）。
+- 本次未下載任何 GIS 或圖像檔案，未修改 `raw/`、`data/juan*.json`、`data/entities/`、`web/`。

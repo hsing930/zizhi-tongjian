@@ -1,6 +1,6 @@
 # 歷史地圖來源目錄
 
-驗證日期：2026-11-24。每一筆都依實際頁面重新讀取；授權文字為頁面所載，若與搜尋摘要不一致，以頁面為準。
+驗證日期：2026-11-24 首次驗證；**2026-11-25 再次驗證**（以 curl 抓取頁面原文，比對授權字句）。授權文字為頁面所載，若與搜尋摘要不一致，以頁面為準。2026-11-25 結果：CHGIS、Pitt、Commons 分類頁與抽查檔案皆 HTTP 200 且授權字句相同；Commons Atlas 分類頁仍 HTTP 404；Harvard Dataverse 資料集條款仍未取得（見下）。
 
 | 名稱 | 網址 | 涵蓋時期 | 格式 | 授權（頁面原文摘錄） | 可否連結 | 可否保存派生資料 |
 |---|---|---|---|---|---|---|
@@ -13,10 +13,11 @@
 
 - **譚其驤《中國歷史地圖集》**：未找到開放電子版。PRC Atlas 相關分類頁回 404，不以之作為來源。
 - **唐代行政區**：缺少現成開放資料。CHGIS 可能涵蓋唐代，但頁面未載明範圍，且有禁止再散布條款，因此唐代行政區目前標為「待確認」，不硬連結。
-- **Harvard Dataverse 的 CHGIS 條款頁**：CHGIS 頁面指向該頁，未讀取，其完整條款待確認。
+- **Harvard Dataverse 的 CHGIS 條款頁**（https://dataverse.harvard.edu/dataverse/chgis_v6）：2026-11-25 兩次請求皆回 HTTP 202 空內容；其 API（/api/dataverses/chgis_v6）只回傳版本中繼資料，未含資料集授權。逐資料集條款**待確認**。在確認前，視 CHGIS 為「只連結、不下載、不保存」。
 
 ## 與先前搜尋摘要的差異
 
 - CHGIS 搜尋摘要曾暗示可再利用，但頁面明載「no commercial use, resale, or redistribution permitted」。以頁面為準：只連結，不保存。
 - Pitt 宋代資料的年代，頁面標示 0960–1276，摘要寫 906–1276。以頁面標示為準，兩者需在後續使用時再確認。
+- Pitt 頁面另載「Copyright Not Evaluated」，並說明資料主要取自 Hope Wright 的 *An Alphabetical List of Geographical Names in Song China* 索引。此為上游來源的權利說明，未經評估；ND 條款已足以阻止改作與再散布，本專案不另處理。
 - Commons 分類摘要列出的部分檔名（如 Xia dynasty.svg、Qin dynasty territory.svg）未在頁面文字中確認，視為未驗證。
